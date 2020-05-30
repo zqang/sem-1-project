@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.Controller">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1440.0">
+         <image>
+            <Image url="@../../resources/house-cartoon-wallpaper-background-1.jpg" />
+         </image>
+      </ImageView>
+      <Region layoutX="38.0" layoutY="28.0" opacity="0.7" prefHeight="130.0" prefWidth="1279.0" style="-fx-background-color: white; -fx-background-radius: 30 30 30 30;" />
+      <ImageView fx:id="showCat" fitHeight="259.0" fitWidth="181.0" layoutX="630.0" layoutY="360.0">
+         <image>
+            <Image url="@../../resources/wall-murals-funny-cat-cartoon.jpg.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="love" fitHeight="56.0" fitWidth="69.0" layoutX="111.0" layoutY="42.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../resources/Heart.png" />
+         </image>
+         <effect>
+            <DropShadow spread="1.0" />
+         </effect>
+      </ImageView>
+      <Button layoutX="645.0" layoutY="366.0" mnemonicParsing="false" onMouseClicked="#sound" opacity="0.0" prefHeight="247.0" prefWidth="150.0" text="Button" />
+      <ImageView fitHeight="71.0" fitWidth="63.0" layoutX="711.0" layoutY="35.0">
+         <image>
+            <Image url="@../../resources/coin.png" />
+         </image>
+         <effect>
+            <DropShadow spread="1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="69.0" layoutX="418.0" layoutY="42.0">
+         <image>
+            <Image url="@../../resources/drumstick.png" />
+         </image>
+         <effect>
+            <DropShadow spread="1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="259.0" fitWidth="499.0" layoutX="806.0" layoutY="-36.0">
+         <image>
+            <Image url="@../../resources/level-logo-1200x630.png" />
+         </image>
+      </ImageView>
+      <Region layoutX="132.0" layoutY="636.0" opacity="0.8" prefHeight="105.0" prefWidth="1109.0" style="-fx-background-color: white; -fx-background-radius: 30 30 30 30;" />
+      <ImageView fitHeight="184.0" fitWidth="181.0" layoutX="433.0" layoutY="515.0" onMouseClicked="#chatCat">
+         <image>
+            <Image url="@../../resources/depositphotos_119604192-stock-illustration-chat-icon-speech-bubble-sign.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="476.0" layoutY="662.0" text="CHAT">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font></Label>
+      <Label layoutX="65.0" layoutY="109.0" text="HAPPINESS">
+         <font>
+            <Font name="Arial Black" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="displayHappiness" layoutX="240.0" layoutY="34.0" text="30">
+         <font>
+            <Font name="Agency FB Bold" size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="392.0" layoutY="109.0" text="HUNGER">
+         <font>
+            <Font name="Arial Black" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="displayHunger" layoutX="523.0" layoutY="35.0" text="30">
+         <font>
+            <Font name="Agency FB Bold" size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="690.0" layoutY="109.0" text="MUNNY">
+         <font>
+            <Font name="Arial Black" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="displayMunny" layoutX="806.0" layoutY="33.0" text="30">
+         <font>
+            <Font name="Agency FB Bold" size="96.0" />
+         </font>
+      </Label>
+      <Label fx:id="displayLevel" layoutX="1208.0" layoutY="49.0" text="30">
+         <font>
+            <Font name="Agency FB Bold" size="70.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="222.0" fitWidth="344.0" layoutX="824.0" layoutY="508.0">
+         <image>
+            <Image url="@../../resources/cat fighter.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="1062.0" layoutY="662.0" text="ABOUT">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="122.0" fitWidth="122.0" layoutX="1060.0" layoutY="546.0" onMouseClicked="#about">
+         <image>
+            <Image url="@../../resources/1024px-Information_icon_with_gradient_background.svg.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="806.0" layoutY="662.0" text="CAT FIGHTER">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="144.0" fitWidth="106.0" layoutX="231.0" layoutY="523.0" onMouseClicked="#playGame">
+         <image>
+            <Image url="@../../resources/cartoon-baby-cat-playing-with-ball-of-blue-yarn-vector-20820835.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="167.0" layoutY="662.0" text="PLAY WITH CAT">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+      <Region layoutX="32.0" layoutY="205.0" opacity="0.8" prefHeight="329.0" prefWidth="150.0" style="-fx-background-color: white; -fx-background-radius: 30 30 30 30;" />
+      <ImageView fitHeight="105.0" fitWidth="133.0" layoutX="41.0" layoutY="236.0" onMouseClicked="#feedCat">
+         <image>
+            <Image url="@../../resources/cartoon-funny-cat-eating-vector-20996381.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="46.0" layoutY="342.0" text="KITCHEN">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </Label>
+      
+      <Region layoutX="1174.0" layoutY="196.0" opacity="0.8" prefHeight="329.0" prefWidth="140.0" style="-fx-background-color: white; -fx-background-radius: 30 30 30 30;" />
+      <ImageView fitHeight="99.0" fitWidth="93.0" layoutX="1198.0" layoutY="360.0">
+         <image>
+            <Image url="@../../resources/136573_button_256x256.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="93.0" layoutX="1195.0" layoutY="216.0" onMouseClicked="#save">
+         <image>
+            <Image url="@../../resources/save-icon-3.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="1208.0" layoutY="315.0" text="SAVE">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1207.0" layoutY="465.0" text="BACK">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </Label>
+      <Text fx:id="displayTimeToLive" layoutX="77.0" layoutY="429.0" text="TTL">
+         <font>
+            <Font name="Arial Black" size="29.0" />
+         </font></Text>
+   </children>
+</Pane>
